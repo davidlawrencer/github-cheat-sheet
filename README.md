@@ -1,20 +1,20 @@
-### 6.1 Github Cheat Sheet
+## 6.1 Github Cheat Sheet
 
-## Getting Started
+### Getting Started
 
 [The Real Cheat Sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
 
 `git init` — Initializes current directory as a git repository.
 Question: What do we mean by a "local" directory?
 
-## Seeing What's Going On
+### Seeing What's Going On
 
 `git status` - shows us status, including staged changes, unstaged changes, and untracked files.
 Question: What is an untracked file?
 
 `git diff` - shows unstaged changes in tracked files.
 
-## Creating Commits
+### Creating Commits
 `git add` - stages changes to be committed.
  - `“.”` adds all changes in the current directory.
  - `“-p”` looks through the diff to stage changes by "hunk"
@@ -24,7 +24,7 @@ Question: What is an untracked file?
  - `“-a”` adds all changes **in tracked files**.
  - `“—amend”` allows us to add staged changes to the previous commit.
 
-## Adjusting Your Changes
+### Adjusting Your Changes
 
 `git checkout` - does many things!
 - will remove your changes to a tracked file
@@ -38,7 +38,7 @@ Question: What is an untracked file?
  `git clean` - removes untracked files from repo
  - be SUPER careful.
 
-## Remote Repositories
+### Remote Repositories
 
 `git push` - pushes your branch to a remote repo
 
@@ -46,7 +46,7 @@ Question: What is an untracked file?
 
 `git remote` - references to "non-local" locations for our repo
  - `"add”` add a new remote.
- - "-v” to see locations.
+ - `"-v”` to see locations.
 
 ### OTHER QUESTIONS:
 
