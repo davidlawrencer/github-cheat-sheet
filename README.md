@@ -9,7 +9,7 @@ Question: What do we mean by a "local" directory?
 
 ### Seeing What's Going On
 
-`git status` - shows us status, including staged changes, unstaged changes, and untracked files.
+`git status` - shows status, including staged changes, unstaged changes, and untracked files.
 Question: What is an untracked file?
 
 `git diff` - shows unstaged changes in tracked files.
