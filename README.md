@@ -2,7 +2,7 @@
 
 ### Getting Started
 
-[The Real Cheat Sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
+[The Real Cheat Sheet from Github](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
 
 `git init` — Initializes current directory as a git repository.
 Question: What do we mean by a "local" directory?
