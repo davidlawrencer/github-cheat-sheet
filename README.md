@@ -7,6 +7,8 @@
 `git init` — Initializes current directory as a git repository.
 Question: What do we mean by a "local" directory?
 
+`.gitignore` - Tells git which files **NOT** to track. You should add this immediately after your `git init`, so that git will know which files to... ignore!
+
 ### Seeing What's Going On
 
 `git status` - shows status, including staged changes, unstaged changes, and untracked files.
