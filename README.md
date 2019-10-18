@@ -53,8 +53,8 @@ Question: What is an untracked file?
  `git branch` - shows you which branch you are working on.
 
  `git checkout -b [branch-name]` lets you create a new branch (as shown above).
- - before creating a new branch, make sure to `git pull` from the master branch to make sure you have all remote changes before starting work on your new branch.
- - when you create a new branch, always ALWAYS make sure you are branching from `master` (do not checkout to a new working branch from another working branch).
+ - before creating a new branch, make sure to `git pull` into the `master` branch to make sure you have all remote changes before starting work on your new branch.
+ - when you create a new branch, always **(ALWAYS)** make sure you are branching from `master` (do not checkout to a new working branch from another working branch).
  - Note: if you use `git checkout [branch-name]` (without the `-b` option) you can switch between already-existing branches in your local repository.
 
 
