@@ -35,18 +35,27 @@ Question: What is an untracked file?
  - lets us revert changes from previous commits.
  - be careful!
  
- `git clean` - removes untracked files from repo
+ `git clean` - removes untracked files from repo.
  - be SUPER careful.
 
 ### Remote Repositories
 
-`git push` - pushes your branch to a remote repo
+`git push` - pushes your branch to a remote repo.
 
-`git pull` - pulls changes from a remote repo to your branch
+`git pull` - pulls changes from a remote repo to your branch.
 
-`git remote` - references to "non-local" locations for our repo
+`git remote` - references to "non-local" locations for our repo.
  - `"add”` add a new remote.
  - `"-v”` to see locations.
+ 
+ ### Collaboration
+ 
+ `git branch` - shows you which branch you are working on.
+ 
+ `git checkout -b [branch-name]` lets you create a new branch (as shown above).
+ - before creating a new branch, make sure to `git pull` from the master branch to make sure you have all remote changes before starting work on your new branch.
+ - when you create a new branch, always ALWAYS make sure you are branching from `master` (do not checkout to a new working branch from another working branch).
+ 
 
 ### OTHER QUESTIONS:
 
@@ -55,5 +64,7 @@ The Eternal Question: When should you commit?
 What **should not happen** when another developer uses/compiles the code that you've committed?
 
 How can you link your local git repository to github?
+
+Why should you branch from `master`?
 
 What is HEAD? http://researchhubs.com/post/computing/git/what-is-HEAD-in-git.html
