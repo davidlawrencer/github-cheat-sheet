@@ -59,7 +59,7 @@ Question: What is an untracked file?
 
 
 
-### OTHER QUESTIONS:
+### QUESTIONS:
 
 The Eternal Question: When should you commit?
 
